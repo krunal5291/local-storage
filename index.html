@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<style>
+    .row {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .row1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    i {
+        padding-top: 25px;
+        padding-right: 10px;
+        padding-left: 35px;
+        font-size: 25px;
+    }
+
+    img {
+        width: 250px;
+        overflow: hidden;
+    }
+</style>
+
+<body>
+    <div class="row1">
+        <div class="row">
+            <img src="https://www.financialexpress.com/wp-content/uploads/2022/05/Rolls-Royce-Boat-Tail-exterior-right-620x349.jpg"
+                alt="">
+            <i class="fa-regular fa-thumbs-up" id="i1" onclick="like()"> </i>
+            <h1 id="s1"></h1>
+        </div>
+        <div class="row">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.64PBZf1WC9IpBg0KU6eDKQHaE8&pid=Api&P=0&h=180"
+                alt="">
+                <i class="fa-solid fa-user-plus" onclick="user()"></i>
+            <h1 id="s2"></h1>
+        </div>
+        <div class="row">
+            <img src="https://i.ytimg.com/vi/FFL1GkpfAic/maxresdefault.jpg"
+                alt="">
+                <i class="fa-regular fa-thumbs-up" id="i1" onclick="like_1()"> </i>
+            <h1 id="s3"></h1>
+        </div>
+        <div class="row">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.9desOz2W7W1LTzLwcphMywHaEK&pid=Api&P=0&h=180"
+                alt="">
+                <i class="fa-solid fa-user-plus" onclick="user_1()"></i>
+            <h1 id="s4"></h1>
+        </div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
